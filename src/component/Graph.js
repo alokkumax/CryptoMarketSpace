@@ -55,7 +55,7 @@ export default function Graph() {
   }])
 
   return (
-    <div className="container">
+    <div className="container p-5">
       <Chart
         options={state}
         series={series}
