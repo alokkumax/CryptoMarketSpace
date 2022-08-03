@@ -1,6 +1,37 @@
 .App {
   text-align: center;
 }
+.cate{
+  background-color: rgb(70, 0, 192);
+  display: flex;
+  justify-content:center;
+  /* height: 50px; */
+
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  /* font-family:sans-serif; */
+  font-family: 'Poppins';
+}
+.fullName{
+  font-size: 13px;
+  font-weight: 500;
+  color: black;
+  font-family:sans-serif;
+}
+.price{
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  font-family:sans-serif;
+}
+.priceC{
+  font-size: 13px;
+  font-weight: 500;
+  font-family:sans-serif;
+}
 
 .App-logo {
   height: 40vmin;
