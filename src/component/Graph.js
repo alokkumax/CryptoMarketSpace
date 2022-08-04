@@ -56,6 +56,7 @@ export default function Graph() {
 
   return (
     <div className="container p-5">
+      <span>Graph Analysis </span>
       <Chart
         options={state}
         series={series}
