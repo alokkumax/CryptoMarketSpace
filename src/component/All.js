@@ -3,6 +3,8 @@ import img1 from "../assets/1.jpg"
 import img2 from "../assets/2.jpg"
 import img3 from "../assets/3.webp"
 import List from './List';
+import {Link} from "react-router-dom"
+import { BsArrowDown,BsArrowUp,BsFillCursorFill } from 'react-icons/bs';
 
 export default function All() {
   const [info, setInfo] = useState([]);
@@ -30,6 +32,11 @@ useEffect(()=>{
   
   return (
     <div className='container'>
+      <div className="text-center p-3 ">
+        <Link to="/" className='btn btn-light m-2 border-primary text-primary'>All Stocks <BsFillCursorFill color='blue'/></Link>
+        <Link to="/gain" className='btn btn-light m-2 border-success text-success'>Gain <BsArrowUp color='green'/></Link>
+        <Link to="/loss" className='btn btn-light m-2 border-danger text-danger'>Loss <BsArrowDown color='red'/></Link>
+      </div>
       
       {
         info.slice(0,count).map((item,index) => (

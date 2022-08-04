@@ -1,6 +1,17 @@
 .App {
   text-align: center;
 }
+.header{
+  background-color: rgb(15, 9, 119);
+  height: 50px;
+}
+.heading{
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  justify-content: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .cate{
   background-color: rgb(70, 0, 192);
   display: flex;
